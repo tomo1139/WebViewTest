@@ -13,6 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         val webView = findViewById<WebView>(R.id.webView)
         webView.webViewClient = WebViewClient()
-        webView.loadUrl("https://github.com/tomo1139/WebViewTest/blob/master/index.html")
+        webView.loadUrl("https://tomo1139.github.io/WebViewTest/")
     }
 }
